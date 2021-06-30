@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link, HashRouter } from "react-router-dom";
 import Estudios from "./Estudios";
 import Skills from "./Skills";
 import Proyectos from "./Proyectos";
@@ -11,7 +11,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Router>
+        <HashRouter>
           <Nav
             variant="tabs"
             defaultActiveKey="/home"
@@ -65,7 +65,7 @@ class Navbar extends React.Component {
             <Route exact path="/proyectos" component={Proyectos} />
             
           </Switch>
-        </Router>
+        </HashRouter>
       </React.Fragment>
     );
   }
