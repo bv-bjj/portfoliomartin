@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
     <Navbar />
     </HashRouter>
     
