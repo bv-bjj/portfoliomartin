@@ -27,9 +27,12 @@ class Home extends React.Component {
         <div className="d-flex flex-column align-items-center m-sm-5">
           <div className="d-flex flex-sm-row flex-column">
             <Button as={Link} to="/estudios" className="m-3 border-0 d-flex justify-content-center align-items-center" id="dot1">About</Button>
-            <Button as={Link} to="/skills" className="m-3 border-0 d-flex justify-content-center align-items-center" id="dot2">Skills</Button>
-            <Button as={Link} to="/proyectos" className="m-3 border-0 d-flex justify-content-center align-items-center" id="dot3">Proyectos</Button>
+            <Button as={Link} to="/portfolio" className="m-3 border-0 d-flex justify-content-center align-items-center" id="dot3">Portfolio</Button>
           </div>
+          <p className="mt-5 font-italic">
+              “Me había levantado para irme a casa; porque ya era tarde, y todo
+              estaba oscuro”, El paseo, Robert Walser.
+            </p>
         </div>
 
         <Footer />

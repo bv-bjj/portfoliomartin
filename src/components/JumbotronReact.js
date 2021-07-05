@@ -8,7 +8,7 @@ class JumbotronReact extends React.Component {
     this.state = {
       tarjetas: [
         {
-          titulo: "Proyectos",
+          titulo: "Portfolio",
           frase: "Para eso se necesita locura; locura, ¿oyes? ¡El todo por el todo!”, Zorba el griego, Nikos Kazantzakis",
           info: "En esta sección encontrarás algunos de mis proyectos.  Principalmente se encuentran aquellos relacionados con el  desarrollo web; algunos son proyectos de clase y otros son o bien para aprender o tienen una perspectiva profesional. Al final de la página también se muestran otros proyectos de otros ámbitos."
         },

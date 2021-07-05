@@ -107,7 +107,7 @@ class Tarjeta extends React.Component {
     return (
       <React.Fragment>
        
-
+       <h3 className="m-4 d-flex justify-content-center mt-5">Skills</h3>
         <div id="container">
           {this.state.tarjetas.map((tarjeta) => (
             <SkillsPersonales

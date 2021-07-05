@@ -45,14 +45,10 @@ class Navbar extends React.Component {
                 About
               </Nav.Link>
             </Nav.Item>
+            
             <Nav.Item>
-              <Nav.Link as={Link} to="/skills" className="text-white">
-                Skills
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link as={Link} to="/proyectos" className="text-white">
-                Proyectos
+              <Nav.Link as={Link} to="/portfolio" className="text-white">
+                Portfolio
               </Nav.Link>
             </Nav.Item>
             
@@ -61,8 +57,7 @@ class Navbar extends React.Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={Estudios} />
-            <Route exact path="/skills" component={Skills} />
-            <Route exact path="/proyectos" component={Proyectos} />
+            <Route exact path="/portfolio" component={Proyectos} />
             
           </Switch>
         </HashRouter>
