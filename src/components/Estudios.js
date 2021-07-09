@@ -99,7 +99,7 @@ class Estudios extends React.Component {
           ))}
         </div>
 
-        <h2 className="m-4 d-flex text-center mt-5">Proyectos personales</h2>
+        <h2 className="m-4 d-flex text-center justify-content-center mt-5">Proyectos personales</h2>
         <div className=" d-flex flex-sm-column flex-column align-items-center justify-content-center">
         {this.state.libros.map((libros) => (
           <ProyectosPersonales

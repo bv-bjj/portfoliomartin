@@ -79,13 +79,13 @@ code {
 
 @media (max-width: 600px) {
   #dot1 {
-    height: 120px;
-    width: 120px;
+    height: 110px;
+    width: 110px;
   }
 
   #dot2 {
-    height: 120px;
-    width: 120px;
+    height: 110px;
+    width: 110px;
   }
   
 }
