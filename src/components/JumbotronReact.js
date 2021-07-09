@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Container } from "react-bootstrap";
+
 import JumbotronCard from "./JumbotronCard";
 
 class JumbotronReact extends React.Component {
@@ -10,7 +10,7 @@ class JumbotronReact extends React.Component {
         {
           titulo: "Portfolio",
           frase: "Para eso se necesita locura; locura, ¿oyes? ¡El todo por el todo!”, Zorba el griego, Nikos Kazantzakis",
-          info: "En esta sección encontrarás algunos de mis proyectos.  Principalmente se encuentran aquellos relacionados con el  desarrollo web; algunos son proyectos de clase y otros son o bien para aprender o tienen una perspectiva profesional. Al final de la página también se muestran otros proyectos de otros ámbitos."
+          info: "Bienvenido a mi portfolio. Aquí encontrarás mi formación, mis skills y mis proyectos relacionados directamente con el desarrollo web. "
         },
       ],
     };

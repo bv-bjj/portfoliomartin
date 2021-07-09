@@ -13,11 +13,7 @@ class Estudios extends React.Component {
     super();
     this.state = {
       tarjetas: [
-        {
-          titulo: "Cursos de formación en Construcción de paz y resolución de conflictos",
-          descripcion: "Erasmus +, Catalunya Voluntaria",
-          anos: "2018-2019",
-        },
+        
         {
           titulo: "Máster en Relaciones Internacionales, Seguridad y Desarrollo",
           descripcion: "Universidad Autónoma de Barcelona",
@@ -86,17 +82,13 @@ class Estudios extends React.Component {
             <br></br>
             <br></br>
             <p className="text-success">
-              Mi formación procede del ámbito de las ciencias sociales,
-              concretamente las Ciencias Políticas y las Relaciones
-              Internacionales. También me he formado en construcción de paz y
-              resolución de conflictos a través de diferentes formación. Sin
-              embargo, desde 2021 decidí dar un vuelco e iniciar mi camino en el
+            Aquí encontrarás información sobre mis estudios y mis proyectos personales. En 2021 decidí dar un cambio en mi vida e iniciar mi camino en el
               mundo de la programación y el desarrollo web.
             </p>
           </Container>
         </Jumbotron>
         
-        <h3 className="m-4 d-flex justify-content-center mt-5">Estudios</h3>
+        <h2 className="m-4 d-flex justify-content-center mt-5">Estudios</h2>
         <div className=" d-flex flex-sm-row flex-column align-items-center justify-content-center">
                 {this.state.tarjetas.map((tarjeta) => (
             <EstudiosPersonales
@@ -107,7 +99,7 @@ class Estudios extends React.Component {
           ))}
         </div>
 
-        <h3 className="m-4 d-flex justify-content-center mt-5">Proyectos personales</h3>
+        <h2 className="m-4 d-flex text-center mt-5">Proyectos personales</h2>
         <div className=" d-flex flex-sm-column flex-column align-items-center justify-content-center">
         {this.state.libros.map((libros) => (
           <ProyectosPersonales

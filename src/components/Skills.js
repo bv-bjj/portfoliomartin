@@ -1,33 +1,29 @@
 import React from "react";
-import {
-  Jumbotron,
-  Container,
-  } from "react-bootstrap";
-import Footer from "./Footer";
-import Tarjeta from "./TarjetaInfoSkills";
+import { Card } from "react-bootstrap";
 
 
-class Skills extends React.Component {
-  
-  render() {
-    return (
-      <React.Fragment>
-        <Jumbotron fluid className="">
-          <Container>
-            <h1>Skills</h1>
-            <p>
-              “Me había levantado para irme a casa; porque ya era tarde, y todo
-              estaba oscuro”, El paseo, Robert Walser.
-            </p>
-          </Container>
-        </Jumbotron>
-               
-       
-        <Tarjeta />
-        <Footer />
-      </React.Fragment>
-    );
-  }
-}
+const Skills = (props) => (
+  <div className="d-flex justify-content-center items-center">
+    <Card style={{ width: "18rem", margin: "10px", height: "18rem" }}>
+      <Card.Title className="m-3 d-flex justify-content-center items-center">
+        {props.tecnologia1}
+      </Card.Title>
+      <Card.Title className="m-3 d-flex justify-content-center items-center">
+        {props.tecnologia2}
+      </Card.Title>
+      <Card.Title className="m-3 d-flex justify-content-center items-center">
+        {props.tecnologia3}
+      </Card.Title>
+      <Card.Title className="m-3 d-flex justify-content-center items-center">
+        {props.tecnologia4}
+      </Card.Title>
+      <Card.Title className="m-3 d-flex justify-content-center items-center">
+        {props.tecnologia5}
+      </Card.Title>
+
+      
+    </Card>
+  </div>
+);
 
 export default Skills;

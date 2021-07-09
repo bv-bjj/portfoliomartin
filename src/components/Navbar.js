@@ -2,7 +2,7 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link, HashRouter } from "react-router-dom";
 import Estudios from "./Estudios";
-import Skills from "./Skills";
+
 import Proyectos from "./Proyectos";
 import Home from "./Home";
 import Bv from "../img/bv.png";
@@ -15,7 +15,7 @@ class Navbar extends React.Component {
           <Nav
             variant="tabs"
             defaultActiveKey="/home"
-            className="justify-content-center hg p-3 bg-success align-items-center shadow"
+            className="justify-content-center hg p-2 bg-success align-items-center shadow"
           >
             
             <Nav.Item>
@@ -34,6 +34,11 @@ class Navbar extends React.Component {
               ></img>
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/portfolio" className="text-white">
+                Portfolio
+              </Nav.Link>
+            </Nav.Item>
             
              <Nav.Item>
               <Nav.Link
@@ -46,11 +51,6 @@ class Navbar extends React.Component {
               </Nav.Link>
             </Nav.Item>
             
-            <Nav.Item>
-              <Nav.Link as={Link} to="/portfolio" className="text-white">
-                Portfolio
-              </Nav.Link>
-            </Nav.Item>
             
           </Nav>
 

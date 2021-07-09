@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 const ProyectosPersonales = (props) => (
   <Card
@@ -14,9 +14,9 @@ const ProyectosPersonales = (props) => (
         {props.descripcion}
       </Card.Text>
       <Card.Text style={{ fontSize: "15px", margin: "5px", fontWeight: "bold" }}>
-        Desde: {props.fecha}
+       {props.fecha}
       </Card.Text>
-      <a className="btn btn-success mt-3 " href={props.enlace} target="_blank">Más información</a>
+      <a className="btn btn-success mt-3  " href={props.enlace} target="_blank">Más información</a>
     </Card.Body>
     
     <Card.Img className="d-flex justify-content-center align-items-center overflow-hidden"

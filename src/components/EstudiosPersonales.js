@@ -18,6 +18,10 @@ const EstudiosPersonales = (props) => (
           {props.anos}
           
         </Card.Text> 
+        <Card.Text className="text-dark pr-2" id="font">
+          {props.horas}
+          
+        </Card.Text> 
         
       </Card.Body>
     </Card>
