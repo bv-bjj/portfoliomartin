@@ -26,7 +26,7 @@ class Home extends React.Component {
         </div>
         <div className="d-flex flex-column align-items-center m-sm-5">
           
-          <p className="m-3 mt-5 font-italic">
+          <p className="m-3 mt-5 mb-5 font-italic">
               “Me había levantado para irme a casa; porque ya era tarde, y todo
               estaba oscuro”, El paseo, Robert Walser.
             </p>
