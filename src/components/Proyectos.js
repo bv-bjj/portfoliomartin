@@ -112,9 +112,9 @@ class Proyectos extends React.Component {
     return (
       <React.Fragment>
         <JumbotronReact />
-        <h2 className=" d-flex justify-content-center">Skills</h2>
+        <h2 className=" d-flex justify-content-center" >Skills</h2>
 
-        <div className=" d-flex flex-sm-row flex-column align-items-center justify-content-center mt-2">
+        <div className=" d-flex flex-column flex-sm-col flex-md-col flex-lg-row align-items-center justify-content-center mt-2">
           {this.state.skills.map((tarjeta) => (
             <Skills
               tecnologia1={tarjeta.tecnologia1}
@@ -126,7 +126,7 @@ class Proyectos extends React.Component {
           ))}
         </div>
 
-        <h2 className="mt-5 text-center">Formación en desarrollo web</h2>
+        <h2 className="mt-5 text-center" >Formación en desarrollo web</h2>
         <div className=" d-flex flex-sm-row flex-column align-items-center justify-content-center mt-2">
           {this.state.tarjetas.map((tarjeta) => (
             <EstudiosPersonales

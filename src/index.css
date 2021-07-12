@@ -129,5 +129,21 @@ code {
 
 }
 
-
+.gradient {
+  background: linear-gradient(to bottom, #000, #000 60%, green 60%, green 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  
  
+}
+
+
+
+#skills1 {
+  background: linear-gradient(to bottom, #000, #000 60%, green 60%, green 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  
+ 
+}
+

@@ -7,10 +7,10 @@ class Footer extends React.Component {
     return (
       <React.Fragment>
         
-        <div className=" bg-success d-flex justify-content-center shadow-lg mt-2 fixed-bottom">
+        <div className=" bg-success d-flex justify-content-center shadow-lg mt-5 fixed-bottom ">
           <Navbar color="dark" dark>
            
-            <Container className="d-md-flex flex-column text-center ">
+            <Container className="d-md-flex flex-row text-center ">
               <NavbarBrand className=" text-white" id="textoFooter">
                
                 Contacto: martindejos@gmail.com
@@ -28,7 +28,7 @@ class Footer extends React.Component {
                   bgColor="white"
                   target="_blank"
                   style={{ height: 25, width: 25, margin: "5px" }}
-                  style={{ height: 25, width: 25, margin: "5px" }}
+                 
                 />
               </div>
             </Container>

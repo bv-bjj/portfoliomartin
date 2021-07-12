@@ -1,20 +1,18 @@
 import React from "react";
 import Footer from "./Footer";
 import Captura from "../img/Captura.png";
-import { Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+
 
 class Home extends React.Component {
   render() {
     return (
-      <React.Fragment>
+      <React.Fragment  >
         
-        <div className="d-flex flex-column align-items-center mt-3 mt-sm-5">
+        <div className="d-flex flex-column align-items-center mt-3 mt-sm-5 ">
         
          <div  style={{ width: "90%",}}>
           <h5 className="p-1 text-center lh-2">
-           Martín Madridejos, desarrollador web full-stack, <br></br>
-            apasionado del Front-End
+           Martín Madridejos, desarrollador web full-stack apasionado del Front-End
           </h5>
           </div>
           <img
@@ -24,9 +22,9 @@ class Home extends React.Component {
           ></img>
          
         </div>
-        <div className="d-flex flex-column align-items-center m-sm-5">
+        <div className="d-flex flex-column align-items-center m-sm-5 overflow-hidden">
           
-          <p className="m-3 mt-5 mb-5 font-italic">
+          <p className="m-3 mt-5  font-italic " style={{ marginBottom: "50px" }}>
               “Me había levantado para irme a casa; porque ya era tarde, y todo
               estaba oscuro”, El paseo, Robert Walser.
             </p>

@@ -70,9 +70,9 @@ class Estudios extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Jumbotron fluid>
+        <Jumbotron fluid className="shadow-sm">
           <Container className="p-4">
-            <h1>About</h1>
+            <h1 class="gradient">About</h1>
             <p className="font-italic">
               “Siento que usted será algo esencial para lo que tengo que hacer,
               aunque todavía no me doy cuenta de la razón”, El túnel, Ernesto
@@ -88,7 +88,7 @@ class Estudios extends React.Component {
           </Container>
         </Jumbotron>
         
-        <h2 className="m-4 d-flex justify-content-center mt-5">Estudios</h2>
+        <h2 className="m-4 d-flex justify-content-center mt-5" >Estudios</h2>
         <div className=" d-flex flex-sm-row flex-column align-items-center justify-content-center">
                 {this.state.tarjetas.map((tarjeta) => (
             <EstudiosPersonales
