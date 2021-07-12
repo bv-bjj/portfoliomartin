@@ -51,21 +51,21 @@ class Proyectos extends React.Component {
           descripcion:
             "The Drunk Bee fue el primer proyecto del BootCamp de Full-Stack. Consiste en una apliación Wheel Of Doom de selección de sacrificios, ambientada en las abejas y el alcohol. Se realizó en dos sprints de una semana. Tecnologías: HTML, CSS, JS, GitHub. Está en producción en GH pages.",
           imagenUrl: DrunkBee,
-          enlace: "https://github.com/martindejos/TheDrunkBee",
+          enlace: "https://github.com/vchacin/Floristeria-AR",
         },
         {
           titulo: "App restaurante",
           descripcion:
-            "The Drunk Bee fue el primer proyecto del BootCamp de Full-Stack. Consiste en una apliación Wheel Of Doom de selección de sacrificios, ambientada en las abejas y el alcohol. Se realizó en dos sprints de una semana. Tecnologías: HTML, CSS, JS, GitHub. Está en producción en GH pages.",
+            "",
           imagenUrl: DrunkBee,
-          enlace: "https://github.com/martindejos/TheDrunkBee",
+          enlace: "https://github.com/martindejos/AppRestaurante",
         },
         {
-          titulo: "música",
+          titulo: "Hit the Doombom",
           descripcion:
-            "The Drunk Bee fue el primer proyecto del BootCamp de Full-Stack. Consiste en una apliación Wheel Of Doom de selección de sacrificios, ambientada en las abejas y el alcohol. Se realizó en dos sprints de una semana. Tecnologías: HTML, CSS, JS, GitHub. Está en producción en GH pages.",
+            "",
           imagenUrl: DrunkBee,
-          enlace: "https://github.com/martindejos/TheDrunkBee",
+          enlace: "https://github.com/vchacin/Hit-the-Domboom",
         },
       ],
       tarjetas: [

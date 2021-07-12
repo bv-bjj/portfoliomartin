@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 const EstudiosPersonales = (props) => (
   <div className="d-flex justify-content-center items-center">
-    <Card style={{ width: "18rem", margin: "10px", height: "18rem" }}>
+    <Card style={{ width: "18rem", margin: "10px", height: "18rem" }} className="shadow-lg">
       <Card.Title className="m-3 d-flex justify-content-center items-center">
         {props.titulo}
       </Card.Title>

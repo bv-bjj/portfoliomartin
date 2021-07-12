@@ -11,7 +11,7 @@ class Footer extends React.Component {
           <Navbar color="dark" dark>
            
             <Container className="d-md-flex flex-column text-center ">
-              <NavbarBrand className="h6 small text-white" id="textoFooter">
+              <NavbarBrand className=" text-white" id="textoFooter">
                
                 Contacto: martindejos@gmail.com
               </NavbarBrand>
@@ -27,7 +27,7 @@ class Footer extends React.Component {
                   className="linkedin"
                   bgColor="white"
                   target="_blank"
-                  style={{ height: 25, width: 25, margin: "10px" }}
+                  style={{ height: 25, width: 25, margin: "5px" }}
                   style={{ height: 25, width: 25, margin: "5px" }}
                 />
               </div>
