@@ -7,7 +7,7 @@ class Footer extends React.Component {
     return (
       <React.Fragment>
         
-        <div className=" bg-success d-flex justify-content-center shadow-lg mt-2 ">
+        <div className=" bg-success d-flex justify-content-center shadow-lg mt-2 fixed-bottom">
           <Navbar color="dark" dark>
            
             <Container className="d-md-flex flex-column text-center ">

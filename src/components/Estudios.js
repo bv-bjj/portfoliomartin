@@ -100,7 +100,7 @@ class Estudios extends React.Component {
         </div>
 
         <h2 className="m-4 d-flex text-center justify-content-center mt-5">Proyectos personales</h2>
-        <div className=" d-flex flex-sm-column flex-column align-items-center justify-content-center">
+        <div className=" d-flex flex-sm-column flex-column align-items-center justify-content-center mb-5">
         {this.state.libros.map((libros) => (
           <ProyectosPersonales
             imagenUrl={libros.imagenUrl}

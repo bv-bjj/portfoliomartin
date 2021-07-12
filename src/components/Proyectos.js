@@ -138,7 +138,7 @@ class Proyectos extends React.Component {
           ))}
         </div>
         <h2 className="mt-5 text-center">Portfolio</h2>
-        <div className="d-flex justify-content-center align-items-center flex-column mt-2">
+        <div className="d-flex justify-content-center align-items-center flex-column mt-2 mb-5">
           {this.state.desarrolloWeb.map((desarrolloWeb) => (
             <ProyectosPersonales
               imagenUrl={desarrolloWeb.imagenUrl}

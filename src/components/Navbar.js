@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route, Link, HashRouter } from "react-router-dom";
+import { BrowserRouter as Switch, Route, Link, HashRouter } from "react-router-dom";
 import Estudios from "./Estudios";
 
 import Proyectos from "./Proyectos";
@@ -15,7 +15,7 @@ class Navbar extends React.Component {
           <Nav
             variant="tabs"
             defaultActiveKey="/home"
-            className="justify-content-center hg p-2 bg-success align-items-center shadow"
+            className="justify-content-center hg p-2 bg-success align-items-center  shadow-lg"
           >
             
             <Nav.Item>

@@ -9,18 +9,18 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         
-        <div className="d-flex flex-column align-items-center mt-5">
+        <div className="d-flex flex-column align-items-center mt-3">
         
          <div  style={{ width: "90%",}}>
-          <h4 className="p-1 text-center lh-2">
+          <h5 className="p-1 text-center lh-2">
            Martín Madridejos, desarrollador web full-stack <br></br>
             Apasionado del mundo Front End
-          </h4>
+          </h5>
           </div>
           <img
             src={Captura}
             alt="imagen"
-            style={{ width: "200px", borderRadius: "100%", marginTop: "70px" }} id="logoBv"
+            style={{ width: "150px", borderRadius: "100%", marginTop: "30px" }} id="logoBv"
           ></img>
          
         </div>
