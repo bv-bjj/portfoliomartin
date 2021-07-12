@@ -9,12 +9,12 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         
-        <div className="d-flex flex-column align-items-center mt-3">
+        <div className="d-flex flex-column align-items-center mt-3 mt-sm-5">
         
          <div  style={{ width: "90%",}}>
           <h5 className="p-1 text-center lh-2">
-           Martín Madridejos, desarrollador web full-stack <br></br>
-            Apasionado del mundo Front End
+           Martín Madridejos, desarrollador web full-stack, <br></br>
+            apasionado del Front-End
           </h5>
           </div>
           <img
