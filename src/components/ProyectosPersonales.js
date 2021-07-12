@@ -16,6 +16,9 @@ const ProyectosPersonales = (props) => (
       <Card.Text style={{ fontSize: "15px", margin: "5px", fontWeight: "bold" }}>
        {props.fecha}
       </Card.Text>
+      <Card.Text style={{ fontSize: "15px", margin: "5px", fontWeight: "bold" }}>
+        {props.tipo}
+      </Card.Text>
       <a className="btn btn-success mt-3  " href={props.enlace} target="_blank">Más información</a>
     </Card.Body>
     
