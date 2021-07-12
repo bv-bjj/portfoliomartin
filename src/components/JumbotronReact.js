@@ -9,7 +9,7 @@ class JumbotronReact extends React.Component {
       tarjetas: [
         {
           titulo: "Portfolio",
-          frase: "Para eso se necesita locura; locura, ¿oyes? ¡El todo por el todo!”, Zorba el griego, Nikos Kazantzakis",
+          frase: '"Para eso se necesita locura; locura, ¿oyes? ¡El todo por el todo!”, Zorba el griego, Nikos Kazantzakis"',
           info: "Bienvenido a mi portfolio. Aquí encontrarás mi formación, mis skills y mis proyectos relacionados directamente con el desarrollo web. "
         },
       ],

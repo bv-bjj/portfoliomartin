@@ -18,13 +18,13 @@ class Home extends React.Component {
           <img
             src={Captura}
             alt="imagen"
-            style={{ width: "150px", borderRadius: "100%", marginTop: "30px" }} id="logoBv"
+            style={{ width: "150px", borderRadius: "100%", marginTop: "30px" }} id="logoBv" className="shadow-lg"
           ></img>
          
         </div>
         <div className="d-flex flex-column align-items-center m-sm-5 overflow-hidden">
           
-          <p className="m-3 mt-5  font-italic " style={{ marginBottom: "50px" }}>
+          <p className="m-3 mt-5  font-italic " style={{ marginBottom: "50px" }} id="fraseHome">
               “Me había levantado para irme a casa; porque ya era tarde, y todo
               estaba oscuro”, El paseo, Robert Walser.
             </p>

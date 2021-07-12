@@ -87,6 +87,10 @@ code {
     height: 110px;
     width: 110px;
   }
+
+  #fraseHome {
+    display: none;
+  }
   
 }
 
@@ -146,4 +150,5 @@ code {
   
  
 }
+
 
