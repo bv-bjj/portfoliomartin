@@ -1,9 +1,9 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Estudios from "./Estudios";
+import About from "./About";
 
-import Proyectos from "./Proyectos";
+import Portfolio from "./Portfolio";
 import Home from "./Home";
 import Bv from "../img/bv.png";
 
@@ -56,8 +56,8 @@ class Navbar extends React.Component {
 
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={Estudios} />
-            <Route exact path="/portfolio" component={Proyectos} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/portfolio" component={Portfolio} />
             
           </Switch>
         </Router>

@@ -1,23 +1,26 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 
-const ProyectosPersonales = (props) => (
+const CardPortfolio = (props) => (
   <Card
     style={{ width: "80%",  }}
-    className="d-flex flex-col flex-sm-row mb-5 justify-content-center align-items-center shadow-lg"
+    className="d-flex flex-col flex-sm-row mb-5  align-items-center shadow-lg"
   >
-    <Card.Body>
-      <Card.Title className="mt-2 mb-5 d-flex  h2 " style={{width: "100%", margin: "5px" }}>
+    <Card.Body >
+      <Card.Title className=" mb-4 d-flex  h2 " style={{width: "100%", margin: "5px" }}>
         {props.titulo}
       </Card.Title>
       <Card.Text style={{ fontSize: "15px", margin: "5px" }}>
-        {props.descripcion}
+        <b>Descripción:</b> {props.descripcion}
       </Card.Text>
-      <Card.Text style={{ fontSize: "15px", margin: "5px", fontWeight: "bold" }}>
+      <Card.Text style={{ fontSize: "15px", margin: "5px",  }}>
        {props.fecha}
       </Card.Text>
-      <Card.Text style={{ fontSize: "15px", margin: "5px", fontWeight: "bold" }}>
-        {props.tipo}
+      <Card.Text style={{ fontSize: "15px", margin: "5px",  }}>
+      <b>Tipología:</b> {props.tipo}
+      </Card.Text>
+      <Card.Text style={{ fontSize: "15px", margin: "5px",  }}>
+      <b>Tecnologías:</b> {props.tecnologia}
       </Card.Text>
       <a className="btn btn-success mt-3  " href={props.enlace} target="_blank">Más información</a>
     </Card.Body>
@@ -33,4 +36,4 @@ const ProyectosPersonales = (props) => (
   
 );
 
-export default ProyectosPersonales;
+export default CardPortfolio;

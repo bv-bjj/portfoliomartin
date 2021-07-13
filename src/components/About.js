@@ -1,14 +1,15 @@
 import React from "react";
 import { Jumbotron, Container } from "react-bootstrap";
 import Footer from "./Footer";
-import EstudiosPersonales from "./EstudiosPersonales";
-import ProyectosPersonales from "./ProyectosPersonales";
+import CardProyectosPersonales from "./CardProyectosPersonales";
+import CardAbout from "./CardAbout";
 import Viaje from "../img/viaje.jpg";
 import Fula from "../img/fula.jpg";
 import Asia from "../img/asia.jpg";
 import Descarga from "../img/descarga.png";
 
-class Estudios extends React.Component {
+
+class About extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -28,8 +29,10 @@ class Estudios extends React.Component {
       libros: [
         {
           titulo: "Iniciación al Fula",
+          rol: "Editor",
+          tipologia: "Libro de idiomas",
           descripcion:
-            "Editor. El objetivo de este libro de iniciación es ayudar a las personas que quieran aprender la lengua y la cultura fula.",
+            "Libro de Moussa Diallo. El objetivo de este libro de iniciación es ayudar a las personas que quieran aprender la lengua y la cultura fula.",
           imagenUrl: Fula,
           fecha: "5-6-2021",
           enlace:
@@ -38,8 +41,10 @@ class Estudios extends React.Component {
 
         {
           titulo: "El siglo de Asia",
+          rol: "Colaborador y Editor",
+          tipologia: "Ensayo de política internacional",
           descripcion:
-            "Colaborador y editor en el libro de mi abuelo Mateo Madridejos. Encargado de la organización, aspectos de edición, contacto con la editorial y promoción. Su lectura proporciona una visión rigurosa, profunda y didáctica del desarrollo político-económico de la cuenca del Pacífico con artículos sobre China, Taiwán, Japón, India, Singapur, Hong-Kong. ",
+            "Libro de Mateo Madridejos. Encargado de la organización, aspectos de edición, contacto con la editorial y promoción. Su lectura proporciona una visión rigurosa, profunda y didáctica del desarrollo político-económico de la cuenca del Pacífico con artículos sobre China, Taiwán, Japón, India, Singapur, Hong-Kong. ",
           imagenUrl: Asia,
           fecha: "17-2-2021",
           enlace:
@@ -48,8 +53,10 @@ class Estudios extends React.Component {
 
         {
           titulo: "Viaje por la última frontera de Europa",
+          rol: "Autor",
+          tipologia: "Literatura de viajes",
           descripcion:
-            "Autor. Un libro de aventuras con historia, política y reflexiones viajeras, sobre mis experiencias en un viaje de cuatro meses por las fronteras de Europa. Recorrí lugares poco transitados como Kaliningrado, Minsk, el este de Ucrania, Transnistria, Gagauzia, el País Sículo, el Kurdistán turco y Chipre del Norte.",
+            "Un libro de aventuras con historia, política y reflexiones viajeras, sobre mis experiencias en un viaje de cuatro meses por las fronteras de Europa. Recorrí lugares poco transitados como Kaliningrado, Minsk, el este de Ucrania, Transnistria, Gagauzia, el País Sículo, el Kurdistán turco y Chipre del Norte.",
           imagenUrl: Viaje,
           fecha: "7-6-2020",
           enlace:
@@ -57,6 +64,8 @@ class Estudios extends React.Component {
         },
         {
           titulo: "Barrioviajero.com",
+          rol: "Autor",
+          tipologia: "Blog",
           descripcion:
             "Blog personal que a modo de biblioteca ha albergado muchos de mis escritos, en temas como política internacional, literatura, viajes, filosofía, cine y demás temas variados ",
           imagenUrl: Descarga,
@@ -82,8 +91,7 @@ class Estudios extends React.Component {
             <br></br>
             <br></br>
             <p className="text-success">
-            Aquí encontrarás información sobre mis estudios y mis proyectos personales. En 2021 decidí dar un cambio en mi vida e iniciar mi camino en el
-              mundo de la programación y el desarrollo web.
+            Bienvenido/a. Aquí encontrarás información sobre mis estudios y mis proyectos personales.
             </p>
           </Container>
         </Jumbotron>
@@ -91,7 +99,7 @@ class Estudios extends React.Component {
         <h2 className="m-4 d-flex justify-content-center mt-5" >Estudios</h2>
         <div className=" d-flex flex-sm-row flex-column align-items-center justify-content-center">
                 {this.state.tarjetas.map((tarjeta) => (
-            <EstudiosPersonales
+            <CardProyectosPersonales
               titulo={tarjeta.titulo}
               descripcion={tarjeta.descripcion}
               anos={tarjeta.anos}
@@ -102,12 +110,14 @@ class Estudios extends React.Component {
         <h2 className="m-4 d-flex text-center justify-content-center mt-5">Proyectos personales</h2>
         <div className=" d-flex flex-sm-column flex-column align-items-center justify-content-center mb-5">
         {this.state.libros.map((libros) => (
-          <ProyectosPersonales
+          <CardAbout
             imagenUrl={libros.imagenUrl}
             titulo={libros.titulo}
             enlace={libros.enlace}
             descripcion={libros.descripcion}
             fecha={libros.fecha}
+            rol={libros.rol}
+           tipologia={libros.tipologia}
           />
         ))}
         </div>
@@ -117,4 +127,4 @@ class Estudios extends React.Component {
   }
 }
 
-export default Estudios;
+export default About;

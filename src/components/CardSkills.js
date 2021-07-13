@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 
 
-const Skills = (props) => (
+const CardSkills = (props) => (
   <div className="d-flex justify-content-center items-center">
     <Card style={{ width: "18rem", margin: "10px", height: "18rem" }} className="shadow-lg">
       <Card.Title className="m-3 d-flex justify-content-center items-center">
@@ -26,4 +26,4 @@ const Skills = (props) => (
   </div>
 );
 
-export default Skills;
+export default CardSkills;
