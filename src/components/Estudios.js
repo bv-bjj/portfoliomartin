@@ -58,7 +58,7 @@ class Estudios extends React.Component {
         {
           titulo: "Barrioviajero.com",
           descripcion:
-            "Blog personal que a modo de biblioteca a albergado muchos de mis escritos, en temas como política internacional, literatura, viajes, filosofía, cine y demás temas variados ",
+            "Blog personal que a modo de biblioteca ha albergado muchos de mis escritos, en temas como política internacional, literatura, viajes, filosofía, cine y demás temas variados ",
           imagenUrl: Descarga,
           fecha: "2012-actualidad",
           enlace: "http://www.barrioviajero.com/",
