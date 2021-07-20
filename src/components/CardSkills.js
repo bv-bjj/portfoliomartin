@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 const CardSkills = (props) => (
   <div className="d-flex justify-content-center items-center">
-    <Card style={{ width: "18rem", margin: "10px", height: "18rem" }} className="shadow-lg">
+    <Card style={{ width: "18rem", margin: "10px", height: "23rem" }} className="shadow-lg">
       <Card.Title className="m-3 d-flex justify-content-center items-center">
         {props.tecnologia1}
       </Card.Title>
@@ -19,6 +19,9 @@ const CardSkills = (props) => (
       </Card.Title>
       <Card.Title className="m-3 d-flex justify-content-center items-center">
         {props.tecnologia5}
+      </Card.Title>
+      <Card.Title className="m-3 d-flex justify-content-center items-center">
+        {props.tecnologia6}
       </Card.Title>
 
       

@@ -25,11 +25,13 @@ class Footer extends React.Component {
                 <SocialIcon
                   url="https://www.linkedin.com/in/mart%C3%ADn-madridejos-b832a4212/"
                   className="linkedin"
-                  bgColor="white"
+                  bgColor="black"
                   target="_blank"
                   style={{ height: 25, width: 25, margin: "5px" }}
                  
                 />
+                
+                <a href="https://github.com/martindejos/martindejos"><img src="https://midu.dev/images/tags/github.png"  style={{ height: 25, width: 25, margin: "5px", cursor: "pointer" }}/></a> 
               </div>
             </Container>
           </Navbar>

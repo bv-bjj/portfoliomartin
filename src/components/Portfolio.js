@@ -111,20 +111,23 @@ class Portfolio extends React.Component {
           tecnologia3: "Javascript",
           tecnologia4: "Bootstrap",
           tecnologia5: "Tailwinds",
+          tecnologia6: "Saas",
         },
         {
-          tecnologia1: "Saas",
-          tecnologia2: "React",
-          tecnologia3: "Vue",
-          tecnologia4: "PHP",
-          tecnologia5: "Laravel",
+          tecnologia1: "React",
+          tecnologia2: "Vue",
+          tecnologia3: "PHP",
+          tecnologia4: "Laravel",
+          tecnologia5: "Mysql",
+          tecnologia6: "Diseño UX/UI",
         },
         {
-          tecnologia1: "Mysql",
-          tecnologia2: "Github",
-          tecnologia3: "Figma",
-          tecnologia4: "Canva",
-          tecnologia5: "Metodologías agile",
+          tecnologia1: "Github",
+          tecnologia2: "Figma",
+          tecnologia3: "Canva",
+          tecnologia4: "Wordpress/Elementor",
+          tecnologia5: "Trello",
+          tecnologia6: "Metodologías agile y Scrum",
         },
       ],
     };
@@ -144,6 +147,7 @@ class Portfolio extends React.Component {
               tecnologia3={tarjeta.tecnologia3}
               tecnologia4={tarjeta.tecnologia4}
               tecnologia5={tarjeta.tecnologia5}
+              tecnologia6={tarjeta.tecnologia6}
             />
           ))}
         </div>
