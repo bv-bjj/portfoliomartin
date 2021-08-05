@@ -31,7 +31,7 @@ class Footer extends React.Component {
                  
                 />
                 
-                <a href="https://github.com/martindejos/martindejos"><img src="https://midu.dev/images/tags/github.png"  style={{ height: 25, width: 25, margin: "5px", cursor: "pointer" }}/></a> 
+                <a href="https://github.com/martindejos"><img src="https://midu.dev/images/tags/github.png"  style={{ height: 25, width: 25, margin: "5px", cursor: "pointer" }}/></a> 
               </div>
             </Container>
           </Navbar>
