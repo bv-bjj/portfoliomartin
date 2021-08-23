@@ -12,6 +12,7 @@ import Hit from "../img/hit.png";
 import Sushi from "../img/sushi.png";
 import Agorax from "../img/Agorax.png";
 import PortfolioFoto from "../img/portfolio.png";
+import DoggyF from "../img/doggyF.png";
 
 
 class Portfolio extends React.Component {
@@ -19,6 +20,14 @@ class Portfolio extends React.Component {
     super();
     this.state = {
       desarrolloWeb: [
+        {
+          titulo: "DoggyF",
+          tipo: "Front-End & Back-End",
+          tecnologia: "HTML, CSS, Bootstrap, Javascript/Vue/VueX, PHP/Laravel, Mysql, GitHub, Figma.",
+          descripcion: "DoggyF es una comunidad de dueños de perros y paseadores, de uso totalmente gratuito. Los usuarios pueden publicar anuncios y contactar con otros usuarios para proceder en el intercambio. La aplicación tiene características de Red Social y de Gestión de contenidos. Está desarrollada con Mysql + Laravel/Sanctum + Vue/Vuex, con manejo de estado, funciones complejas y API’s. No está en producción. ",
+          imagenUrl: DoggyF,
+          enlace: "https://github.com/MuyDiversos/Vue-DoggyF",
+        },
         {
           titulo: "Portfolio personal",
           tipo: "Front-End.",
