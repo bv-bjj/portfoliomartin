@@ -66,7 +66,7 @@ class About extends React.Component {
           rol: "Author",
           tipologia: "Blog",
           descripcion:
-            "Blog personal que a modo de biblioteca ha albergado muchos de mis escritos, en temas como política internacional, literatura, viajes, filosofía, cine y demás temas variados ",
+            "Personal blog on topics such as international politics, literature, travel, philosophy, cinema and others",
           imagenUrl: Descarga,
           fecha: "2012-now",
           enlace: "http://www.barrioviajero.com/",
