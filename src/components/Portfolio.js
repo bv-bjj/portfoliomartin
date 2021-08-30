@@ -24,7 +24,7 @@ class Portfolio extends React.Component {
           titulo: "DoggyF",
           tipo: "Front-End & Back-End",
           tecnologia: "HTML, CSS, Bootstrap, Javascript/Vue/VueX, PHP/Laravel, Mysql, GitHub, Figma.",
-          descripcion: "DoggyF es una comunidad de dueños de perros y paseadores, de uso totalmente gratuito. Los usuarios pueden publicar anuncios y contactar con otros usuarios para proceder en el intercambio. La aplicación tiene características de Red Social y de Gestión de contenidos. Está desarrollada con Mysql + Laravel/Sanctum + Vue/Vuex, con manejo de estado, funciones complejas y API’s. No está en producción. ",
+          descripcion: "DoggyF is a community of dog owners and walkers, completely free to use. Users can post advertisements and contact other users to proceed with the exchange. The application has Social Network and Content Management features. It is developed with Mysql + Laravel / Sanctum + Vue / Vuex, with state management, complex functions and APIs. It is not deployed. ",
           imagenUrl: DoggyF,
           enlace: "https://github.com/MuyDiversos/Vue-DoggyF",
         },
@@ -32,7 +32,7 @@ class Portfolio extends React.Component {
           titulo: "Portfolio personal",
           tipo: "Front-End.",
           tecnologia: "HTML, CSS, Bootstrap, Javascript, React, GitHub, Figma.",
-          descripcion: "Portfolio desarrollado en React. Fue creado con la idea de usarlo como CV y juntar todos mis proyectos. Está en producción en Netlify.",
+          descripcion: "Portfolio developed in React. It was created with the idea of ​​using it as a CV and putting all my projects together. It is deployed on Netlify.",
           imagenUrl: PortfolioFoto,
           enlace: "https://github.com/martindejos/portfoliomartin",
         },
@@ -40,7 +40,7 @@ class Portfolio extends React.Component {
           titulo: "Agorax",
           tipo: "Back-End.",
           tecnologia: "HTML, CSS, Tailwinds, Laravel, Blade, GitHub, Figma.",
-          descripcion: "App de gestión y creación de eventos desarrollada con Laravel + Blade, realizada en 2 sprints de 2 semanas. Proyecto para profundizar en la arquitectura MVC. La App dispone de tres tipos de usuarios (anónimos, registrados y admins) con habilidades diferentes. El admin hace CRUD de los eventos y los registrados pueden apuntarse. Por último, comenzamos a trabajar con API's. Está en producción en Heroku.",
+          descripcion: "Event management and creation app developed with Laravel + Blade, carried out in 2 sprints of 2 weeks. Project to delve into MVC architecture. The App has three types of users (anonymous, registered and admins) with different skills. The admin CRUDs the events and the registered ones can sign up. Finally, we start working with API's. It is deployed on Heroku.",
           imagenUrl: Agorax,
           enlace: "https://github.com/Diversxs/AgoraxDEV",
         },
@@ -49,7 +49,7 @@ class Portfolio extends React.Component {
           tipo: "Front-End.",
           tecnologia: "HTML, CSS, Bootstrap, Javascript, React, GitHub, Figma.",
           descripcion:
-            "Primera página web con cliente real. Badalona Jiu Jitsu es el gimnasio donde imparto clases de jiujitsu y decidí empezar a maquetar al completo la página, tanto para otorgarle otra plataforma digital como para aprender. Por un lado incluye los contenidos, por otro el código. Primero la prototipé en Figma y luego la organicé con HTML, CSS y Javascript. Finalmente la dividí por components y la puse en React. No está terminada.",
+            "First web page with real client. Badalona Jiu Jitsu is the gym where I teach jiujitsu classes and I decided to start designing the entire page, both to give it another digital platform and to learn. On the one hand it includes the contents, on the other the code. First I prototyped it in Figma and then I organized it with HTML, CSS and Javascript. Finally I divided it by components and put it in React. ",
           imagenUrl: Badalona,
           enlace: "https://github.com/martindejos/Badalonajiujitsu",
         },
@@ -58,7 +58,7 @@ class Portfolio extends React.Component {
           tipo: "Back-End.",
           tecnologia: "HTML, CSS, Bootstrap, PHP, MySQL, GitHub, Figma, Trello.",
           descripcion:
-            "El primer CRUD en Vanilla. Se trata de una aplicación Web  que permite pedir cita a los desarrolladores y equipos para solucionar problemas técnicos con la ayuda del formador o CTO. Está en producción en GH pages.",
+            "The first CRUD in Vanilla. It is a Web application that allows developers and teams to request an appointment to solve technical problems with the help of the trainer or CTO. It is deployed on GH pages.",
           imagenUrl: Consultora,
           enlace: "https://github.com/losTinchos/Consultora",
         },
@@ -67,7 +67,7 @@ class Portfolio extends React.Component {
           tipo: "Front-End.",
           tecnologia: "HTML, CSS, Javascript, GitHub, Figma, Trello.",
           descripcion:
-            "The Drunk Bee fue el primer proyecto del BootCamp de Full-Stack. Consiste en una apliación Wheel Of Doom de selección de sacrificios, ambientada en las abejas y el alcohol. Se realizó en dos sprints de una semana. Está en producción en GH pages.",
+            "The Drunk Bee was the first Full-Stack BootCamp project. It consists of a Wheel Of Doom application of selection of sacrifices, set in bees and alcohol. It was done in two one-week sprints.",
           imagenUrl: DrunkBee,
           enlace: "https://github.com/martindejos/TheDrunkBee",
         },
@@ -76,7 +76,7 @@ class Portfolio extends React.Component {
           tipo: "Front-End.",
           tecnologia: "HTML, CSS, Javascript, GitHub, Figma, Trello.",
           descripcion:
-            "Siguiendo la estructura de la App de comida a domicilio, en este proyecto se utilizó Javascript de manera más completa, manipulando datos en Front. No está en producción.",
+            "Following the structure of the Food Delivery App, in this project Javascript was used more extensively, manipulating data in Front. It is not in production.",
           imagenUrl: Flores,
           enlace: "https://github.com/vchacin/Floristeria-AR",
         },
@@ -85,7 +85,7 @@ class Portfolio extends React.Component {
           tipo: "Front-End.",
           tecnologia: "HTML, CSS, Javascript, GitHub, Figma, Trello.",
           descripcion:
-            "El sushi fue un proyecto de una App de comida a domicilio. Se trata de una App más desarrollada a nivel de CSS, pero sobre todo el aprendizaje fue con Javascript: recorrer arrays, imprimir en HTML, cambio de estilos y onClicks. También utilicé la estructura del Atomic Design. No está en producción.",
+            "The sushi was a project of a food delivery app. It is a more developed App at the CSS level, but above all the learning was with Javascript: manipulating arrays, printing in HTML, changing styles and onClicks. I also used the Atomic Design structure. ",
             imagenUrl: Sushi,
           enlace: "https://github.com/martindejos/AppRestaurante",
         },
@@ -94,7 +94,7 @@ class Portfolio extends React.Component {
           tipo: "Front-End.",
           tecnologia: "HTML, CSS, Javascript, GitHub, Figma, Trello.",
           descripcion:
-            "Hit the Doombom fue el primer proyecto en el que usé Javascript. La App consistía en crear una batería que funcionase a tiempo real. Cada click a los botones fue dinamizado mediante event listeners. No está en producción.",
+            "Hit the Doombom was the first project I used Javascript on. The App consisted of creating a battery that worked in real time. Each click to the buttons was dynamized by event listeners. ",
           imagenUrl: Hit,
           enlace: "https://github.com/vchacin/Hit-the-Domboom",
         },
@@ -103,13 +103,13 @@ class Portfolio extends React.Component {
         {
           titulo: "Bootcamp Full-Stack Web Development",
           descripcion: "Factoría F5, Barcelona",
-          anos: "Abril 2021 - Actualmente",
+          anos: "April 2021 - Now",
           horas: "850h",
         },
         {
           titulo: "Bootcamp Front-End Web Development",
           descripcion: "Factoria F5, Barcelona",
-          anos: "Enero 2021 - Marzo 2021",
+          anos: "January 2021 - March 2021",
           horas: "300h",
         },
       ],
@@ -161,7 +161,7 @@ class Portfolio extends React.Component {
           ))}
         </div>
 
-        <h2 className="mt-5 text-center" >Formación en desarrollo web</h2>
+        <h2 className="mt-5 text-center" >Training in web development</h2>
         <div className=" d-flex flex-sm-row flex-column align-items-center justify-content-center mt-2">
           {this.state.tarjetas.map((tarjeta) => (
             <CardFormacionWeb

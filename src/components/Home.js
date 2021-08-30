@@ -12,7 +12,7 @@ class Home extends React.Component {
         
          <div  style={{ width: "90%",}}>
           <h5 className="p-1 text-center lh-2">
-           Martín Madridejos, desarrollador web full-stack apasionado del Front-End
+          Martín Madridejos, Full-Stack web developer focused on Front-End
           </h5>
           </div>
           <img
@@ -25,8 +25,7 @@ class Home extends React.Component {
         <div className="d-flex flex-column align-items-center m-sm-5 overflow-hidden">
           
           <p className="m-3 mt-5  font-italic " style={{ marginBottom: "50px" }} id="fraseHome">
-              “Me había levantado para irme a casa; porque ya era tarde, y todo
-              estaba oscuro”, El paseo, Robert Walser.
+              “I had risen up, to go home; for it was late now, and everything was dark”, The walk, Robert Walser.
             </p>
         </div>
 

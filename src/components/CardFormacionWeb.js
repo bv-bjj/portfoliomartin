@@ -11,15 +11,15 @@ const CardFormacionWeb = (props) => (
 
       <Card.Body>
          <Card.Text className="text-dark pr-2" id="font">
-         <b>Descripción: </b>{props.descripcion}
+         <b>Description: </b>{props.descripcion}
           
         </Card.Text> 
         <Card.Text className="text-dark pr-2" id="font">
-          <b>Fecha: </b> {props.anos}
+          <b>Dates: </b> {props.anos}
           
         </Card.Text> 
         <Card.Text className="text-dark pr-2" id="font">
-        <b>Horas: </b> {props.horas}
+        <b>Hours: </b> {props.horas}
           
         </Card.Text> 
         

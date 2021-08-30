@@ -8,21 +8,20 @@ import Fula from "../img/fula.jpg";
 import Asia from "../img/asia.jpg";
 import Descarga from "../img/descarga.png";
 
-
 class About extends React.Component {
   constructor() {
     super();
     this.state = {
       tarjetas: [
-        
         {
-          titulo: "Máster en Relaciones Internacionales, Seguridad y Desarrollo",
-          descripcion: "Universidad Autónoma de Barcelona",
+          titulo:
+            "Master in International Relations, Security and Development",
+          descripcion: "Autonomous University of Barcelona",
           anos: "2016-2017",
         },
         {
-          titulo: "Grado en Ciencias Políticas y Gestión Pública",
-          descripcion: "Universidad Autónoma de Barcelona",
+          titulo: "Bachelor in Political Science and Public Management",
+          descripcion: "Autonomous University of Barcelona",
           anos: "2012-2016",
         },
       ],
@@ -30,9 +29,9 @@ class About extends React.Component {
         {
           titulo: "Iniciación al Fula",
           rol: "Editor",
-          tipologia: "Libro de idiomas",
+          tipologia: "Languages",
           descripcion:
-            "Libro de Moussa Diallo. El objetivo de este libro de iniciación es ayudar a las personas que quieran aprender la lengua y la cultura fula.",
+            "Moussa Diallo's book. The aim of this introductory book is to help people who want to learn the Fula language and culture.",
           imagenUrl: Fula,
           fecha: "5-6-2021",
           enlace:
@@ -41,10 +40,10 @@ class About extends React.Component {
 
         {
           titulo: "El siglo de Asia",
-          rol: "Colaborador y Editor",
-          tipologia: "Ensayo de política internacional",
+          rol: "Contributor and Editor",
+          tipologia: "International politics essay",
           descripcion:
-            "Libro de Mateo Madridejos. Encargado de la organización, aspectos de edición, contacto con la editorial y promoción. Su lectura proporciona una visión rigurosa, profunda y didáctica del desarrollo político-económico de la cuenca del Pacífico con artículos sobre China, Taiwán, Japón, India, Singapur, Hong-Kong. ",
+            "Book of Mateo Madridejos. In charge of the organization, editing aspects, contact with the publisher and promotion. His reading provides a rigorous, deep and didactic vision of the political-economic development of the Pacific with articles on China, Taiwan, Japan, India, Singapore, Hong-Kong. ",
           imagenUrl: Asia,
           fecha: "17-2-2021",
           enlace:
@@ -53,10 +52,10 @@ class About extends React.Component {
 
         {
           titulo: "Viaje por la última frontera de Europa",
-          rol: "Autor",
-          tipologia: "Literatura de viajes",
+          rol: "Author",
+          tipologia: "Travel literature",
           descripcion:
-            "Un libro de aventuras con historia, política y reflexiones viajeras, sobre mis experiencias en un viaje de cuatro meses por las fronteras de Europa. Recorrí lugares poco transitados como Kaliningrado, Minsk, el este de Ucrania, Transnistria, Gagauzia, el País Sículo, el Kurdistán turco y Chipre del Norte.",
+            "An adventure book with history, politics and traveling reflections, about my experiences on a four-month trip across the borders of Europe. I traveled places like Kaliningrad, Minsk, eastern Ukraine, Transnistria, Gagauzia, Siculus Country, Turkish Kurdistan and Northern Cyprus.",
           imagenUrl: Viaje,
           fecha: "7-6-2020",
           enlace:
@@ -64,12 +63,12 @@ class About extends React.Component {
         },
         {
           titulo: "Barrioviajero.com",
-          rol: "Autor",
+          rol: "Author",
           tipologia: "Blog",
           descripcion:
             "Blog personal que a modo de biblioteca ha albergado muchos de mis escritos, en temas como política internacional, literatura, viajes, filosofía, cine y demás temas variados ",
           imagenUrl: Descarga,
-          fecha: "2012-actualidad",
+          fecha: "2012-now",
           enlace: "http://www.barrioviajero.com/",
         },
       ],
@@ -83,22 +82,22 @@ class About extends React.Component {
           <Container className="p-4">
             <h1 class="gradient">About</h1>
             <p className="font-italic">
-              “Siento que usted será algo esencial para lo que tengo que hacer,
-              aunque todavía no me doy cuenta de la razón”, El túnel, Ernesto
-              Sábato.
+              "I feel that you will be essential for what I have to do, although
+              I still do not realize why", El túnel, Ernesto Sábato.
             </p>
             <br></br>
             <br></br>
             <br></br>
             <p className="text-success">
-            Bienvenido/a. Aquí encontrarás información sobre mis estudios y mis proyectos personales.
+              Welcome. Here you will find information about my studies and my
+              personal projects.
             </p>
           </Container>
         </Jumbotron>
-        
-        <h2 className="m-4 d-flex justify-content-center mt-5" >Estudios</h2>
+
+        <h2 className="m-4 d-flex justify-content-center mt-5">Studies</h2>
         <div className=" d-flex flex-sm-row flex-column align-items-center justify-content-center">
-                {this.state.tarjetas.map((tarjeta) => (
+          {this.state.tarjetas.map((tarjeta) => (
             <CardProyectosPersonales
               titulo={tarjeta.titulo}
               descripcion={tarjeta.descripcion}
@@ -107,19 +106,21 @@ class About extends React.Component {
           ))}
         </div>
 
-        <h2 className="m-4 d-flex text-center justify-content-center mt-5">Proyectos personales</h2>
+        <h2 className="m-4 d-flex text-center justify-content-center mt-5">
+         Personal projects
+        </h2>
         <div className=" d-flex flex-sm-column flex-column align-items-center justify-content-center mb-5">
-        {this.state.libros.map((libros) => (
-          <CardAbout
-            imagenUrl={libros.imagenUrl}
-            titulo={libros.titulo}
-            enlace={libros.enlace}
-            descripcion={libros.descripcion}
-            fecha={libros.fecha}
-            rol={libros.rol}
-           tipologia={libros.tipologia}
-          />
-        ))}
+          {this.state.libros.map((libros) => (
+            <CardAbout
+              imagenUrl={libros.imagenUrl}
+              titulo={libros.titulo}
+              enlace={libros.enlace}
+              descripcion={libros.descripcion}
+              fecha={libros.fecha}
+              rol={libros.rol}
+              tipologia={libros.tipologia}
+            />
+          ))}
         </div>
         <Footer />
       </React.Fragment>

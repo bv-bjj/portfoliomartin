@@ -13,7 +13,7 @@ class Footer extends React.Component {
             <Container className="d-md-flex flex-row text-center ">
               <NavbarBrand className=" text-white" id="textoFooter">
                
-                Contacto: martindejos@gmail.com
+                Contact: martindejos@gmail.com
               </NavbarBrand>
 
              

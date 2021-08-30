@@ -11,18 +11,18 @@ const CardPortfolio = (props) => (
         {props.titulo}
       </Card.Title>
       <Card.Text style={{ fontSize: "15px", margin: "5px" }}>
-        <b>Descripción:</b> {props.descripcion}
+        <b>Description:</b> {props.descripcion}
       </Card.Text>
       <Card.Text style={{ fontSize: "15px", margin: "5px",  }}>
        {props.fecha}
       </Card.Text>
       <Card.Text style={{ fontSize: "15px", margin: "5px",  }}>
-      <b>Tipología:</b> {props.tipo}
+      <b>Type:</b> {props.tipo}
       </Card.Text>
       <Card.Text style={{ fontSize: "15px", margin: "5px",  }}>
-      <b>Tecnologías:</b> {props.tecnologia}
+      <b>Technologies:</b> {props.tecnologia}
       </Card.Text>
-      <a className="btn btn-success mt-3  " href={props.enlace} target="_blank">Más información</a>
+      <a className="btn btn-success mt-3  " href={props.enlace} target="_blank">More information</a>
     </Card.Body>
     
     <Card.Img className="d-flex justify-content-center align-items-center overflow-hidden"

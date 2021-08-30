@@ -11,11 +11,11 @@ const CardProyectosPersonales = (props) => (
 
       <Card.Body>
          <Card.Text className="text-dark pr-2" id="font">
-         <b>Lugar: </b>{props.descripcion}
+         <b>Place: </b>{props.descripcion}
           
         </Card.Text> 
         <Card.Text className="text-dark pr-2" id="font">
-          <b>Fecha: </b> {props.anos}
+          <b>Date: </b> {props.anos}
           
         </Card.Text> 
         
